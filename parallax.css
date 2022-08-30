@@ -1,0 +1,206 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Alfa Slab One', cursive; */
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(#2b1055, #7597de);
+    overflow-x: hidden ;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header .logo{
+    color:azure;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase ;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+     
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover 
+
+{
+    background: #fff;
+    color:#2b1055;
+
+}
+
+.active{
+    background: #fff;
+    color:#2b1055;
+    
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+section#top::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #1c0522, transparent);
+    z-index: 1000;
+
+}
+
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+section img#moon{
+    mix-blend-mode: screen;
+}
+
+#text{
+    position:absolute;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    /* font-size: 1.5em; */
+    z-index: 9;
+    font-weight: 700;
+    right: -350px;
+
+}
+
+section img#mountains_front{
+    z-index: 10;
+}
+
+#btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color: #2b1055;
+    font-size: 1.5em;
+    z-index: 9 ;
+    transform: translateY(100px);
+}
+
+.sec{
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
+/* 
+section img#mountains_behind{
+    background-attachment: fixed;
+} */
+
+.sec h2{
+    font-size: 4em;
+    margin-bottom: 10px;
+    color: #fff;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.sec p{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #fff;
+
+}
+
+.cus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    border-radius: 100%;
+    /* height: 2em;
+    width: 2em; */
+}
+
+.bottom{
+    /* background-color: */
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    border-radius: 20px;
+    z-index: 1001;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    backdrop-filter: blur(2rem);
+    /* opacity: 2.8; */
+}
+
+#sherlock{
+    /* backdrop-filter: blur(2rem); */
+    /* background-color: red; */
+    /* padding: 2rem; */
+    /* margin: 2rem; */
+    z-index: -1;
+}
+
+img#sher_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none; 
+}
