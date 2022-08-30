@@ -8,6 +8,7 @@
 
 >>>_3. IMG files._
 
->>>[![Watch the video](https://user-images.githubusercontent.com/97678993/187381243-bae6b568-dd2a-458c-b8ef-93454aa5eb89.mp4)
+>>>[![Watch the video]()
 
 
+https://user-images.githubusercontent.com/97678993/187381243-bae6b568-dd2a-458c-b8ef-93454aa5eb89.mp4
