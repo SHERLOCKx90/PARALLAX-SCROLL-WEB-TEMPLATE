@@ -9,8 +9,9 @@
 
 >>>_3. IMG files._
 
-_#THE FINAL PARALLAX TEMPLATE :_ 
->>https://user-images.githubusercontent.com/97678993/187381243-bae6b568-dd2a-458c-b8ef-93454aa5eb89.mp4
+_THE FINAL PARALLAX TEMPLATE :_ 
+>>![PARALLAX-SCROLLING_WEB_TEMPLATE-_DEMO_AdobeExpress](https://user-images.githubusercontent.com/97678993/206866436-f10f708b-52be-4e44-ab8a-c5581b8b098d.gif)
+
 
 >This Template includes 3 sections : 
 >>1 . LANDING SECTION :
